@@ -5,7 +5,7 @@ import { useTitle } from "../hooks";
 export const MovieList = ({ apiPath, title }) => {
   const { data: movies } = useFetch(apiPath);
 
-  const MovieDetailTitle = useTitle(`${title}`);
+  useTitle(`${title}`);
   return (
     <main>
       <section className="max-w-7xl mx-auto py-7 ">

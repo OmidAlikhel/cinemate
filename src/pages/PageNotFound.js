@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useTitle } from "../hooks";
 
 export const PageNotFound = () => {
-  const PageNotFound = useTitle(`Page Not Found /Cinemate`);
+  useTitle(`Page Not Found /Cinemate`);
 
   return (
     <main>
@@ -14,7 +14,11 @@ export const PageNotFound = () => {
           <p className="text-3xl my-5 text-gray-700 dark:text-white font-semibold">
             Opps Page Not Found
           </p>
-          <img src={pageNotFoundImage} className="max-w-lg mt-5 rounded" />
+          <img
+            src={pageNotFoundImage}
+            className="max-w-lg mt-5 rounded"
+            alt="pageNotFound"
+          />
         </div>
         <div className="flex justify-center my-4">
           <Link to="/">
