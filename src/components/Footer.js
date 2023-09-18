@@ -18,7 +18,7 @@ export const Footer = () => {
               <a
                 href="https://github.com/"
                 target="_blank"
-                rel="norefferer"
+                rel="noreferrer"
                 className="mr-4 hover:underline md:mr-6"
               >
                 Github
@@ -29,6 +29,7 @@ export const Footer = () => {
                 href="https://www.linkedin.com/in/omid-alikhel-954893198
                 "
                 target="_blank"
+                rel="noreferrer"
                 className="hover:underline"
               >
                 LinkedIn
